@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConverterApp", "ConverterAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingApplication", "WritingApplication\WritingApplication.csproj", "{F31879AA-EA3D-4EB5-ADF3-682FE0231218}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowApplication", "App1\WindowApplication.csproj", "{89ECB9D3-DD62-47D9-9F3B-E7771F872520}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,26 @@ Global
 		{F31879AA-EA3D-4EB5-ADF3-682FE0231218}.Release|x64.Build.0 = Release|Any CPU
 		{F31879AA-EA3D-4EB5-ADF3-682FE0231218}.Release|x86.ActiveCfg = Release|Any CPU
 		{F31879AA-EA3D-4EB5-ADF3-682FE0231218}.Release|x86.Build.0 = Release|Any CPU
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Debug|ARM.ActiveCfg = Debug|ARM
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Debug|ARM.Build.0 = Debug|ARM
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Debug|ARM.Deploy.0 = Debug|ARM
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Debug|x64.ActiveCfg = Debug|x64
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Debug|x64.Build.0 = Debug|x64
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Debug|x64.Deploy.0 = Debug|x64
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Debug|x86.ActiveCfg = Debug|x86
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Debug|x86.Build.0 = Debug|x86
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Debug|x86.Deploy.0 = Debug|x86
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Release|Any CPU.ActiveCfg = Release|x86
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Release|ARM.ActiveCfg = Release|ARM
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Release|ARM.Build.0 = Release|ARM
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Release|ARM.Deploy.0 = Release|ARM
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Release|x64.ActiveCfg = Release|x64
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Release|x64.Build.0 = Release|x64
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Release|x64.Deploy.0 = Release|x64
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Release|x86.ActiveCfg = Release|x86
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Release|x86.Build.0 = Release|x86
+		{89ECB9D3-DD62-47D9-9F3B-E7771F872520}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
