@@ -26,5 +26,44 @@ namespace ConverterApp
         {
             this.InitializeComponent();
         }
+
+        private void textBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void markkaeuro_Click(object sender, RoutedEventArgs e)
+        {
+            double value = double.Parse(markat.Text);
+            double euro = value * 5.94573;
+            toEuro.Text = euro.ToString("0.0000");
+        }
+
+        private void euromarkka_Click(object sender, RoutedEventArgs e)
+        {
+            double value = double.Parse(eurot.Text);
+            double markka = value / 5.94573;
+            toMarkka.Text = markka.ToString("0.0000");
+        }
+
+        private void textBlock_SelectionChanged_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBlock_SelectionChanged_2(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBlock1_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBlock2_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

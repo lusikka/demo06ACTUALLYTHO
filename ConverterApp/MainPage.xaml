@@ -8,6 +8,40 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="markat" HorizontalAlignment="Left" Margin="342,337,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="toEuro" HorizontalAlignment="Left" Margin="619,343,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="32"/>
+        <TextBox x:Name="eurot" HorizontalAlignment="Left" Margin="342,454,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="toMarkka" HorizontalAlignment="Left" Margin="619,460,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" SelectionChanged="textBlock_SelectionChanged" Height="32"/>
+        <Button x:Name="markkaeuro" Content="Convert" HorizontalAlignment="Left" Margin="449,337,0,0" VerticalAlignment="Top" Click="markkaeuro_Click" Width="97" Height="32">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FF848FFF" Offset="0.379"/>
+                    <GradientStop Color="White" Offset="0.896"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="euromarkka" Content="Convert" HorizontalAlignment="Left" Margin="449,454,0,0" VerticalAlignment="Top" Click="euromarkka_Click" Width="97">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="White" Offset="1"/>
+                    <GradientStop Color="#FFFF7B7B" Offset="0.369"/>
+                    <GradientStop Color="Black" Offset="0.006"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock x:Name="title" HorizontalAlignment="Left" Margin="111,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="textBlock_SelectionChanged_1" Width="837" FontSize="20" FontFamily="Ravie" Height="48" FontWeight="Bold">
+            <Run/>
+            <LineBreak/>
+            <Run/>
+            <LineBreak/>
+            <Run Text="ten "/>
+            <Run Text="automagkaalinen "/>
+            <Run Text="rahakonvertteri by Late, for Late"/>
+        </TextBlock>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,221,0,0" TextWrapping="Wrap" Text="Laten Automagikaalinen rahakonvertteri v6.9, by Late" VerticalAlignment="Top" SelectionChanged="textBlock_SelectionChanged_2" Foreground="#FF0C0C0C" FontFamily="SimSun" FontSize="30" FontWeight="Bold"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="201,343,0,0" TextWrapping="Wrap" Text="Euro -> Markka" VerticalAlignment="Top" SelectionChanged="textBlock1_SelectionChanged"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="201,460,0,0" TextWrapping="Wrap" Text="Markka -> Euro" VerticalAlignment="Top" SelectionChanged="textBlock2_SelectionChanged"/>
 
     </Grid>
 </Page>
